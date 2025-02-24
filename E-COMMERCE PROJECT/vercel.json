@@ -1,0 +1,15 @@
+{
+    "build": {
+      "command": "npm install && npx vite build",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+  
